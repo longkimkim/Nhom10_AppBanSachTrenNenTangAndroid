@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="Trang chủ"
+            android:icon="@drawable/iconhome"/>
+        <item android:id="@+id/nav_favourite"
+            android:title="Sản phẩm bán chạy"
+            android:icon="@drawable/ic_danhsachbanchay"/>
+        <item android:id="@+id/navgiohang"
+            android:title="Giỏ hàng"
+            android:icon="@drawable/icongiohang"/>
+        <item android:id="@+id/navdonhang"
+            android:title="Đơn hàng"
+            android:icon="@drawable/ic_donhang"/>
+        <item android:id="@+id/navthongtin"
+            android:title="Thông tin Shop"
+            android:icon="@drawable/ic_baseline_info_24"/>
+        <item android:id="@+id/nav_taikhoan"
+            android:title="Đăng xuất"
+            android:icon="@drawable/iconuser"/>
+    </group>
+        <item android:id="@+id/nav_danhmuc"
+            android:title="Danh mục sách"
+            app:showAsAction="collapseActionView">
+            <menu>
+                <item android:id="@+id/nav_loai1"
+                    android:title="Chính trị pháp luật"/>
+                <item android:id="@+id/nav_loai2"
+                android:title="Khoa học công nghệ kinh tế"/>
+                <item android:id="@+id/nav_loai3"
+                    android:title="Văn học nghệ thuật"/>
+                <item android:id="@+id/nav_loai4"
+                    android:title="Văn hóa xã hội lịch sử"/>
+                <item android:id="@+id/nav_loai5"
+                    android:title="Giáo trình"/>
+                <item android:id="@+id/nav_loai6"
+                    android:title="Tâm lý- Tâm Linh- Tôn giáo"/>
+                <item android:id="@+id/nav_loai7"
+                    android:title="Truyện tiểu thuyết"/>
+                <item android:id="@+id/nav_loai8"
+                    android:title="Thiếu Nhi"/>
+            </menu>
+        </item>
+
+</menu>

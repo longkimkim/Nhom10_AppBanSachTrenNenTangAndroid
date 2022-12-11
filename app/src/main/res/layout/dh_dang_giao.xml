@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_white_3"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rl_dau"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_anh"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_tenSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/tv_sl"
+            android:layout_toRightOf="@id/img_anh"
+            android:text="tên spvvvv vvvv vv vvv vvvv vv vvvv vvv vvv vvv "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="x2"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_gia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tenSP"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="100000đ"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_ngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tenSP"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/tv_gia"
+            android:layout_toRightOf="@id/img_anh"
+            android:text="27/11/2021"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="@color/gray2"
+        android:id="@+id/gach1"
+        android:layout_marginVertical="10dp"
+        android:layout_below="@id/rl_dau"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/gach1"
+        android:id="@+id/ln_2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/xem"
+            android:id="@+id/tv_xem"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="@color/gray2"
+            android:id="@+id/gach2"
+            android:layout_marginVertical="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_tongsl"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 sản phẩm" />
+
+            <TextView
+                android:id="@+id/tv_thanhtien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100000đ"
+                android:textColor="@color/red"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thanh"
+                android:textSize="18sp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/tv_thanhtien"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="@color/gray2"
+            android:id="@+id/gach3"
+            android:layout_marginVertical="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_dang_giao"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_danhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/toolbar"
+                android:padding="5dp"
+                android:text="@string/nhan"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/btn_danhan"
+                android:text="@string/ban"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_da_nhan"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_danhgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/toolbar"
+                android:padding="5dp"
+                android:text="@string/Danhgia"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/haydanhGia"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_da_huy"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_mualai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/toolbar"
+                android:padding="5dp"
+                android:text="@string/muaLai"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/dahuy"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_cho"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_huy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/toolbar"
+                android:padding="5dp"
+                android:text="@string/huy"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:text="@string/Cho"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_da_danh_gia"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_mualai2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/toolbar"
+                android:padding="5dp"
+                android:text="@string/muaLai"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="@color/gray2"
+            android:id="@+id/gach4"
+            android:layout_marginVertical="10dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

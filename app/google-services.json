@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269175658505",
+    "project_id": "appbansachtrennentangandroid",
+    "storage_bucket": "appbansachtrennentangandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269175658505:android:8256feb630783c7b4740d8",
+        "android_client_info": {
+          "package_name": "com.example.nhom14_appbansachtrennentangandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269175658505-mh0uudv7cejrc40i7q8hsh28baiimkoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ui3Ih2oOh55ch_VYf4inHwqM6_fdjZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269175658505-mh0uudv7cejrc40i7q8hsh28baiimkoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

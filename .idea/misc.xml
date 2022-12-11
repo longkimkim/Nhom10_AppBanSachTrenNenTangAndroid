@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/ic_baseline_home_work_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_change_pass.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_chi_tiet_spactivity.xml" value="0.22" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_danh_muc.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_don_hang.xml" value="0.10914855072463768" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_tam_ly_tam_linh_ton_giao.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_thong_tin_shop.xml" value="0.3333333333333333" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_tim_kiem.xml" value="0.16666666666666666" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/danh_gia.xml" value="0.10729166666666666" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/dh_dang_giao.xml" value="0.10666666666666667" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_chat.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_da_nhan.xml" value="0.10914855072463768" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_dang.xml" value="0.10914855072463768" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_chat.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sach.xml" value="0.1" />
+        <entry key="..\:/BTL_PhamMemMaNguonMo/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sach_danhmuc.xml" value="0.1" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable-v24/iconuser.xml" value="0.2574074074074074" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/border.xml" value="0.26615384615384613" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/border_login.xml" value="0.1" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/border_nut.xml" value="0.25833333333333336" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.1" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.26615384615384613" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.26615384615384613" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/iconnhantin.xml" value="0.26615384615384613" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_chi_tiet_don_hang.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_chi_tiet_spactivity.xml" value="0.2" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_dang_ky.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_dang_nhap.xml" value="0.264" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_danh_gia.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_don_hang.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_thanh_toan.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_tim_kiem_don.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/danh_gia.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/dh_dang_giao.xml" value="0.4" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_cho.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_da_nhan.xml" value="0.24010416666666667" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_dang.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_gio_hang.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_huy.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_tai_khoan.xml" value="0.1" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_thong_bao.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/header.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sp_dh.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_thanh_toan.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/menu/menu_donhang.xml" value="0.25416666666666665" />
+        <entry key="..\:/HOCTAP/GitHub/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/menu/menu_sp_chi_tiet.xml" value="0.25416666666666665" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/background_white_3.xml" value="0.26205128205128203" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/bg_nuttk.xml" value="0.22604166666666667" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/border_login.xml" value="0.22604166666666667" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/ic_baseline_arrow_back_24_2.xml" value="0.23958333333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.23958333333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/drawable/red_button.xml" value="0.26205128205128203" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_cap_nhat_tkactivity.xml" value="0.264" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_change_pass.xml" value="0.25" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_chi_tiet_don_hang.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_chi_tiet_spactivity.xml" value="0.25" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_dang_ky.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_dang_nhap.xml" value="0.2" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_danh_gia.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_danh_muc.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_dia_chi.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_don_hang.xml" value="0.2" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_gio_hang.xml" value="0.23645833333333333" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_main.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_post_danh_gia.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_quenmk.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_splash.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_thanh_toan.xml" value="0.264" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_thong_tin_shop.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_tim_kiem.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_tim_kiem_don.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/activity_tro_giup_va_phan_hoi.xml" value="0.215625" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/check_internet.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/danh_gia.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/dh_dang_giao.xml" value="0.23645833333333333" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_chat.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_cho.xml" value="0.23645833333333333" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_da_nhan.xml" value="0.23645833333333333" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_don_hang.xml" value="0.13020833333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_gio_hang.xml" value="0.2" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_tai_khoan.xml" value="0.25" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_thieu_nhi.xml" value="0.13020833333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/fragment_thong_bao.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/header.xml" value="0.12708333333333333" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_chat.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_danh_gia.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_giohang.xml" value="0.2" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sach_danhmuc.xml" value="0.20989583333333334" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_sp_dh.xml" value="0.23645833333333333" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_thanh_toan.xml" value="0.25" />
+        <entry key="..\:/PhanMemMaNguonMo/BTL/Nhom14_AppBanSachTrenNenTangAndroid/app/src/main/res/layout/item_thongbao.xml" value="0.20989583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

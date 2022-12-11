@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ThongTinShopActivity"
+    android:orientation="vertical"
+    android:background="@color/maunen">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.4"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@color/toolbar">
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            android:layout_gravity="center|left"
+            android:layout_marginHorizontal="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="THÔNG TIN SHOP"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/mauchu"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:src="@drawable/ic_baseline_home_work_24"
+            android:layout_marginVertical="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.93"
+            android:text="Tên shop: muasachonline"
+            android:textSize="18dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:src="@drawable/ic_baseline_phone_in_talk_24"
+            android:layout_marginVertical="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.93"
+            android:text="Điện thoại: 08 6240 6951"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:src="@drawable/ic_baseline_mail_24"
+            android:layout_marginVertical="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.93"
+            android:text="Email: muasachonline@gmail.com"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Nhà sách muasachonline là nhà sách thứ 3 vừa mới được khai trương tháng 6/2017 sau sự thành công của hai nhà sách muasachonline đang 'làm mưa làm gió' trong Sài Gòn. Với diện tích lên đến 1300m2, nhà sách được chia làm 5 tầng với mỗi tầng là một không gian diện tích khác nhau."
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            android:src="@drawable/ic_baseline_place_24"
+            android:layout_marginVertical="2dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.93"
+            android:text="Địa chỉ: 115 Nguyễn Thái Học, Ba Đình, Hà Nội"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="0dp"
+    android:layout_weight="0.6"
+    android:layout_marginTop="10dp">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".View.ThongTinShopActivity" />
+</RelativeLayout>
+</LinearLayout>
+

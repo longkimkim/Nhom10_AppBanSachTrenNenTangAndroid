@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Nhom14_AppBanSachTrenNenTangAndroid</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="log_in">Đăng Nhập</string>
+    <string name="dang_ki">Đăng Ký</string>
+    <string name="quen_MK">Quên mật khẩu?</string>
+
+    <!--    DangKy-->
+    <string name="tenDN">Tên đăng nhập</string>
+    <string name="nhaclaiMK">Nhắc lại mật khẩu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    --ChiTietSP---
+    <string name="them">Thêm vào giỏ hàng</string>
+    <string name="chat">Chat</string>
+    <string name="danh">Đánh giá sản phẩm</string>
+    <string name="xemAll">Xem tất cả &gt;</string>
+    <string name="xemthem">Xem Thêm</string>
+    <string name="anbot">Ẩn bớt</string>
+    <string name="sl">1</string>
+    <string name="cong">+</string>
+    <string name="tru">-</string>
+    <string name="nhaxb">Nhà xuất bản:</string>
+    <string name="tacgia">Tác giả:</string>
+
+
+    <!--    TaiKhoan-->
+    <string name="capnhat">Cập nhật tài khoản</string>
+    <string name="thongtindonhang">Thông tin đơn hàng</string>
+    <string name="pttt">Phương thức thanh toán</string>
+    <string name="thongtinshop">Thông tin shop</string>
+    <string name="trogiup">Trợ giúp và phản hồi</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="thaydoimk">Thay đổi mật khẩu</string>
+
+    <!--    CapNhatTaiKhoan-->
+    <string name="mkcu">Mật khẩu cũ</string>
+    <string name="mkmoi">Mật khẩu mới</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="ngaysinh">Ngày sinh</string>
+    <string name="gioitinh">Giới tính</string>
+
+    <!--    Home-->
+    <string name="danhmuc">Danh mục sách</string>
+    <string name="banchay">Top bán chạy</string>
+    <string name="goiy">Gợi ý</string>
+    <string name="chinhtri">Chính trị-Pháp luật</string>
+    <string name="khcnkt">Khoa học-Công nghệ-Kinh tế</string>
+    <string name="vhnt">Văn học-Nghệ thuật</string>
+    <string name="vhxhls">Văn hóa-Xã hội-Lịch sử</string>
+    <string name="giaotrinh">Giáo trình</string>
+    <string name="ttt">Truyện-Tiểu thuyết</string>
+    <string name="tamly">Tâm lý-Tâm linh-Tôn giáo</string>
+    <string name="thieunhi">Thiếu nhi</string>
+
+
+    -- don hang
+    <string name="xem">Xem thêm sản phẩm</string>
+    <string name="thanh">Thành Tiền:</string>
+    <string name="nhan">Đã nhận được hàng</string>
+    <string name="huy">Hủy</string>
+    <string name="ban">Bạn hài lòng với sản phẩm đã nhận? nếu có, chọn "Đã nhận được hàng" nha. Nếu không, vui lòng chọn "Trả hàng/ Hoàn tiền" nha.</string>
+    <string name="Cho">Nguời bán đang chuẩn bị hàng!</string>
+    <string name="haydanhGia">Bạn hãy đánh giá sản phẩm!</string>
+    <string name="dahuy">Đơn hàng đã hủy bởi bạn!</string>
+    <string name="timkiem2">Bạn có thể tìm kiếm theo tên sản phẩm</string>
+    <string name="muaLai">Mua lại</string>
+    <string name="timkiem">Nhập tên sách cần tìm</string>
+    <string name="Danhgia">Đánh giá</string>
+    <string name="chuaco">Chưa có đánh giá nào!</string>
+    <string name="vanChuyen">Thông tin vận chuyển</string>
+    <string name="nhanhang">Địa chỉ nhận hàng</string>
+    <string name="madh">Mã đơn hàng</string>
+    <string name="ngaytao">Ngày tạo</string>
+
+
+    <!--    QuenMK-->
+    <string name="quenmk">Quên Mật Khẩu</string>
+    <string name="nhapemail">Nhập email liên kết với tài khoản của bạn.<br />Mật khẩu sẽ gửi về email đăng ký.</string>
+    <string name="khoiphuc">Khôi Phục Mật khẩu</string>
+
+    <string name="title_activity_dia_chi">Map</string>
+
+
+    <string name="diachihientai">Địa chỉ hiện tại</string>
+
+    <string name="title_activity_thong_tin_shop">ThongTinShopActivity</string>
+
+    <!--    Trợ giúp và phản hồi-->
+    <string name="question1">Thời gian giao hàng mất bao lâu?</string>
+    <string name="question2">Tôi có thể thay đổi địa chỉ giao hàng ở đâu?</string>
+    <string name="question3">Tôi có thể thay đổi địa chỉ gioa hàng của mình sau khi đặt hàng không?</string>
+    <string name="question4">Tôi có thể hủy đơn đặt hàng của mình không?</string>
+    <string name="question5">Phí ship được tính như thế nào?</string>
+    <string name="question6">Tại sao màu sắc trang điểm của tôi khác với hình ảnh trực tuyến?</string>
+    <string name="question7">Tôi có thể trả lại các sản phẩm được mua online tại các cửa hàng offline không?</string>
+    <string name="question8">Tôi có thể trả lại một phần đơn đặt hàng online không?</string>
+    <string name="question9">Thông tin cửa hàng ?</string>
+    <string name="question10">Nếu các sản phẩm được giao không khớp với đơn đặt hàng của tôi, bị hư hỏng hoặc trong tình trạng không tốt, tôi sẽ làm gì?</string>
+
+    <string name="answer1">Hà Nội: 2-4 ngày làm việc.
+                            <br/>Các tỉnh thành khác: 3-7 ngày làm việc
+                            <br/>Nếu đơn hàng đã được đặt gần ngày lễ hoặc vì các yếu tố khách quan cũng có thể anh hưởng đến tiến độ giao hàng.</string>
+    <string name="answer2">Bạn vui lòng vào phần account trong địa chỉ giao hàng và chọn sửa.</string>
+    <string name="answer3">Bạn không thể thay đổi địa chỉ sau khi đặt hàng.\nNếu muốn thay đổi địa chỉ vui lòng nhắn tin cho shop để thay đổi.</string>
+    <string name="answer4">Chỉ có thể hủy hàng khi đơn hàng ở trạng thái chờ xác nhận</string>
+    <string name="answer5">Phí ship 25.000đ được ap dụng trên toàn quốc</string>
+    <string name="answer6">Có thể là do màu sắc hiển thị trên màn hình của khách hàng có thể khác với sản phẩm thực tế.</string>
+    <string name="answer7">Các sản phẩm được mua trên ứng dụng không thể trả tại cửa hàng Offline.</string>
+    <string name="answer8">Hiện cửa hàng không hỗ trợ hoàn trả 1 phần đơn hàng.</string>
+    <string name="answer9">Bạn có thể xem tại mục địa chỉ cửa hàng hoặc gọi cho hotline theo số 0333897200.</string>
+    <string name="answer10">Gọi cho đường dây nóng dịch vụ khách hàng của chúng tôi theo số 0333 897 200 (từ 9:00 đến 18:00).</string>
+
+
+    --check_internet---
+    <string name="op">OOPS!</string>
+    <string name="no">No Internet connection</string>
+    <string name="pl">Please check your connection</string>
+    <string name="retry">Retry</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

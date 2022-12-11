@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maunen">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout_main"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/ic_baseline_keyboard_backspace_24"
+            app:titleTextColor="@color/mauchu">
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/lv_chon"
+        android:layout_below="@id/appbarlayout_main"
+        android:layout_marginBottom="10dp"
+        android:fitsSystemWindows="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_giaohang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_toRightOf="@id/img"
+                    android:text="@string/thongtindonhang"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_ttdh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="giao hàng thàng công"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:padding="10dp">
+                <ImageView
+                    android:id="@+id/img_dc"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/address" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_toRightOf="@id/img_dc"
+                    android:text="@string/nhanhang"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="username"
+                    android:layout_below="@id/img_dc"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"
+                    android:id="@+id/tv_username"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sdt"
+                    android:layout_below="@id/tv_username"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="5dp"
+                    android:id="@+id/tv_sdt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="diaj chi"
+                    android:layout_below="@id/tv_sdt"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="5dp"
+                    android:id="@+id/tv_dc"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:background="@color/white">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginVertical="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:id="@+id/rec_giohang"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:layout_margin="8dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/thanh"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="1000đ"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:id="@+id/tv_thanhtien"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img_thanh"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_thanh" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_toRightOf="@id/img_thanh"
+                    android:text="@string/pttt"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_pttt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_thanh"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Thanh toán khi nhận hàng."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:background="@color/white"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:text="@string/madh"/>
+
+                <TextView
+                    android:id="@+id/tv_madh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="mã đơn"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ngaytao"
+                    android:layout_below="@id/tv_madh"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ngaytao"
+                    android:layout_below="@id/tv_madh"
+                    android:textSize="18sp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/tv_ngay"
+                    android:textColor="@color/black"
+                    android:layout_margin="5dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:id="@+id/gach1"
+                    android:background="@color/black"
+                    android:layout_below="@id/tv_ngay"
+                    android:layout_margin="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/btn_mualai2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gach1"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/toolbar"
+                    android:text="@string/muaLai"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_chon"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/red"
+            android:text="@string/muaLai"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_mualai"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:background="@color/red"
+            android:text="@string/huy"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_huy"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:background="@color/red"
+            android:text="@string/Danhgia"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_danh_gia"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/toolbar"
+            android:text="@string/nhan"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/btn_da_nhan"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+</layout>

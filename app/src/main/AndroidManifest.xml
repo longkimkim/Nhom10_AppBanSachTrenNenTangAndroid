@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nhom14_appbansachtrennentangandroid">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logobansach"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nhom14_AppBanSachTrenNenTangAndroid"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".View.TroGiupVaPhanHoiActivity"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".View.DiaChiActivity"
+            android:label="@string/title_activity_dia_chi" />
+        <activity
+            android:name=".View.ThongTinShopActivity"
+            android:exported="false"
+            android:label="@string/title_activity_thong_tin_shop" />
+        <activity android:name=".View.QuenmkActivity" />
+        <activity
+            android:name=".View.DanhMucActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.PostDanhGiaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.ChiTietDonHangActivity"
+            android:exported="true"
+            android:parentActivityName=".View.DonHangActivity" />
+        <activity
+            android:name=".View.TimKiemDonActivity"
+            android:exported="true"
+            android:parentActivityName=".View.DonHangActivity" />
+        <activity
+            android:name=".View.TimKiemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.DanhGiaActivity"
+            android:exported="true"
+            android:parentActivityName=".View.ChiTietSPActivity" />
+        <activity
+            android:name=".View.ThanhToanActivity"
+            android:exported="true" />
+        <activity android:name=".View.GioHangActivity" />
+        <activity
+            android:name=".View.DonHangActivity"
+            android:parentActivityName=".View.MainActivity" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.DangKyActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".View.ChiTietSPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.DangNhap"
+            android:exported="true" />
+        <activity android:name=".View.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.ChangePassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.CapNhatTKActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/maunen"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:id="@+id/appbarlayout_main"
+            android:background="@color/toolbar"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar_tk"
+                app:navigationIcon="@drawable/ic_baseline_keyboard_backspace_24"
+                app:titleTextColor="@color/mauchu">
+                <RelativeLayout
+                    android:layout_width="100dp"
+                    android:layout_gravity="right"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_chat"
+                        android:layout_width="80px"
+                        android:layout_height="80px"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginHorizontal="20dp"
+                        android:src="@drawable/iconnhantin" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/appbarlayout_main"
+            android:id="@+id/timkiem"
+            android:background="@color/maunen"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+            <AutoCompleteTextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tv_TimKiem"
+                android:layout_width="0dp"
+                android:layout_weight="10"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_timkiem"
+                android:drawablePadding="8dp"
+                android:paddingLeft="5dp"
+                android:gravity="left|center_vertical"
+                android:inputType="textImeMultiLine"
+                android:hint="@string/timkiem2"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <ImageView
+                android:id="@+id/img_TimKiem"
+                android:background="@drawable/bg_nuttk"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_search_white"
+                android:layout_weight="2"/>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ln_chuaTim"
+            android:background="@color/white"
+            android:layout_below="@id/timkiem">
+
+            <ImageView
+                android:id="@+id/img_anh"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/iconsearch" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timkiem2"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/img_anh"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/timkiem"
+            android:visibility="gone"
+            android:id="@+id/ln_chuaDH">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/img_anh2"
+                android:src="@drawable/chua"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chưa có đơn hàng"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_below="@id/img_anh2"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_donhang"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timkiem" />
+
+    </RelativeLayout>
+
+
+</layout>
